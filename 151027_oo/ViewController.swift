@@ -11,25 +11,24 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var btn: UIButton!
-    @IBOutlet weak var circularBtn: UIButton!
+    
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        circularBtn.layer.borderWidth = 2
-        circularBtn.layer.cornerRadius = circularBtn.frame.size.width/1.5
-        circularBtn.clipsToBounds = true
+                
         
         
+        /* 
         btn.layer.borderWidth = 2
         btn.layer.borderColor = btn.tintColor.CGColor
-        
+        */
     }
     
     override func viewWillAppear(animated: Bool) {
-        <#code#>
+        
     }
 
     override func didReceiveMemoryWarning() {

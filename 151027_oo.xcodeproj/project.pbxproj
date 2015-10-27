@@ -14,6 +14,7 @@
 		43E2D3B11BDFA33E0024BAF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43E2D3AF1BDFA33E0024BAF1 /* LaunchScreen.storyboard */; };
 		43E2D3BC1BDFA33E0024BAF1 /* _51027_ooTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E2D3BB1BDFA33E0024BAF1 /* _51027_ooTests.swift */; };
 		43E2D3C71BDFA33E0024BAF1 /* _51027_ooUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E2D3C61BDFA33E0024BAF1 /* _51027_ooUITests.swift */; };
+		43E2D3D71BDFACFA0024BAF1 /* CircularButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E2D3D61BDFACFA0024BAF1 /* CircularButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		43E2D3C21BDFA33E0024BAF1 /* 151027_ooUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 151027_ooUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		43E2D3C61BDFA33E0024BAF1 /* _51027_ooUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _51027_ooUITests.swift; sourceTree = "<group>"; };
 		43E2D3C81BDFA33E0024BAF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43E2D3D61BDFACFA0024BAF1 /* CircularButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				43E2D3AD1BDFA33E0024BAF1 /* Assets.xcassets */,
 				43E2D3AF1BDFA33E0024BAF1 /* LaunchScreen.storyboard */,
 				43E2D3B21BDFA33E0024BAF1 /* Info.plist */,
+				43E2D3D61BDFACFA0024BAF1 /* CircularButton.swift */,
 			);
 			path = 151027_oo;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			files = (
 				43E2D3A91BDFA33E0024BAF1 /* ViewController.swift in Sources */,
 				43E2D3A71BDFA33E0024BAF1 /* AppDelegate.swift in Sources */,
+				43E2D3D71BDFACFA0024BAF1 /* CircularButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
